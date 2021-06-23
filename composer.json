@@ -1,5 +1,5 @@
 {
-  "name": "karelwintersky/monolog-pdo-handler",
+  "name": "kriskenyon/monolog-pdo-handler",
   "description": "A handler for Monolog that stores data via PDO driver to Database",
   "keywords": [
     "log",
@@ -24,10 +24,10 @@
   },
   "autoload": {
     "psr-4": {
-      "KarelWintersky\\Monolog\\": "src/"
+      "kriskenyon\\Monolog\\": "src/"
     }
   },
   "extra": {
-    "class": "KarelWintersky\\Monolog\\KWPDOHandler"
+    "class": "kriskenyon\\Monolog\\KWPDOHandler"
   }
 }
